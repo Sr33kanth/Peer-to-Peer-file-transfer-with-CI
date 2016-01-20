@@ -1,0 +1,28 @@
+P2S commands
+
+ADD RFC 1162 P2P-CI/1.0
+Host: thishost.csc.ncsu.edu
+Port: 5678
+Title: A Proferred Official ICP
+
+LOOKUP RFC 1234 P2P-CI/1.0
+Host: thishost.csc.ncsu.edu
+Port: 7735
+Title: Requirements for IPsec Remote Access Scenarios
+
+LIST ALL P2P-CI/1.0
+Host: thishost.csc.ncsu.edu
+Port: 5678
+
+==========================================================
+
+P2P commands
+
+GET RFC 1234 P2P-CI/1.0
+Host: somehost.csc.ncsu.edu
+OS: Mac OS 10.4.1
+
+==========================================================
+
+TCP : Client 7733 -register- Server 7734
+UDP : Client 7736 - request file - Server 7735
